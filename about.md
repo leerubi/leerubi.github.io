@@ -4,12 +4,21 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This page will contain what I learn, what I do, and what I think.<br />
+I believe we can make the better world with technology.<br />
 
-### More Information
+Major: *Industrial Management Engineering*<br />
+Interests: *Information System Design, Statistical Data Mining*<br />
 
-A place to include any other types of information that you'd like to include about yourself.
+Minor: *Computer Science and Engineering*<br />
+Interests: *AI, Machine Learning, Human-Computer Interaction*<br />
+
+My English is not good, but I'll try to use it.
+
+### News
+
+(2018-09-05) I made a barrier-free map for POSTECH [배프: POSTECH 배리어프리 지도](https://play.google.com/store/apps/details?id=com.dongguri.navigationdrawer){: target="_blank" }
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[dj1122@postech.ac.kr](mailto:dj1122@postech.ac.kr)
