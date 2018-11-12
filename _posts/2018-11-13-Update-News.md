@@ -26,11 +26,13 @@ Software Defect Prediction Eclipse Plug-in based on Deep Learning
 
 Project ``LED Matrix Alarm System``
 -----------
-2018-2 CSED402 Software Design Method Project
-Software Defect Prediction Eclipse Plug-in based on Deep Learning
+2018-2 CSED402 Human-Computer Interaction Project
+LED Matrix Alarm Android Application with Arduio
 
 - [Dajin Lee](https://github.com/leerubi)
-  - Speech recognition and speaker labeling with deep learning
+  - Making LED matrix container and circuit soldering
+  - Android application implementation
+  - User evaluation sheet
 
 
 Project ``Notify``
