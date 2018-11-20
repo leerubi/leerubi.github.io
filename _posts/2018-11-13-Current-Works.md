@@ -3,7 +3,7 @@ layout: post
 title: Current works
 ---
 
-Project ``StairX``
+`StairX`
 -----------
 2018 POSTECH Hackathon Project
 
@@ -11,7 +11,7 @@ Project ``StairX``
 - [See the news here](https://leerubi.github.io/News2/)
 
 
-Project ``SW Defect Predictor``
+`SW Defect Predictor`
 -----------
 2018-2 CSED332 Software Design Method Project
 Software Defect Prediction Eclipse Plug-in based on Deep Learning
@@ -19,7 +19,7 @@ Software Defect Prediction Eclipse Plug-in based on Deep Learning
 - In progress
   
 
-Project ``LED Matrix Alarm System``
+`LED Matrix Alarm System`
 -----------
 2018-2 CSED402 Human-Computer Interaction Project
 LED Matrix Alarm Android Application with Arduio
@@ -27,7 +27,7 @@ LED Matrix Alarm Android Application with Arduio
 - In progress
 
 
-Project ``Notify``
+`Notify`
 -----------
 2018-2 IMEN330 Product Production Process Design 2 Project
 Providing nice scripts for hearing-impaired
