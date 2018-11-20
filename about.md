@@ -17,8 +17,8 @@ My English is not good, but I'll try to use it.
 
 ### News
 
-(2018-11-18) I got second prize in 2018 postech hackathon [(See more details)](https://leerubi.github.io/News2/)
-(2018-11-09) I got second prize in undergraduate proejct competition in 2018 KIIE
+(2018-11-18) I got second prize in 2018 postech hackathon [(See more details)](https://leerubi.github.io/News2/)  
+(2018-11-09) I got second prize in undergraduate proejct competition in 2018 KIIE  
 (2018-09-05) I made a barrier-free map for POSTECH [배프: POSTECH 배리어프리 지도](https://play.google.com/store/apps/details?id=com.dongguri.navigationdrawer){: target="_blank" }
 
 ### Contact me
