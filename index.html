@@ -56,9 +56,59 @@
 
 		.research li {
 			margin-bottom: 5px;
+			display: flex;
+			align-items: center;
 		}
 
-		/* 반응형 디자인 */
+		/* 논문 링크 아이콘 스타일 */
+		.research a {
+			display: inline-block;
+			margin-left: 5px;
+			color: #0056b3;
+			text-decoration: none;
+			font-size: 14px;
+		}
+
+		.research a:hover {
+			text-decoration: underline;
+		}
+
+		/* Download CV 버튼 */
+		.button {
+			display: block;
+			width: fit-content;
+			margin: 20px auto;
+			padding: 10px 20px;
+			background-color: #0056b3;
+			color: white;
+			border-radius: 5px;
+			text-decoration: none;
+			font-weight: bold;
+			text-align: center;
+			transition: background 0.3s ease;
+		}
+
+		.button:hover {
+			background-color: #003b80;
+		}
+
+		/* 연락처 정보 */
+		.contact {
+			margin-top: 20px;
+			font-size: 14px;
+			text-align: center;
+		}
+
+		.contact a {
+			color: #0056b3;
+			text-decoration: none;
+			font-weight: 600;
+		}
+
+		.contact a:hover {
+			text-decoration: underline;
+		}
+
 		@media (max-width: 600px) {
 			.container {
 				margin: 20px;
@@ -67,13 +117,16 @@
 			h1 {
 				font-size: 22px;
 			}
+			.research li {
+				font-size: 14px;
+			}
 		}
 	</style>
 </head>
 <body>
 
 	<div class="container">
-		<h1>Dajin Lee, Ph.D. Candidate</h1>
+		<h1>Dajin Lee, Ph.D. Student</h1>
 
 		<img src="dajin_lee.jpg" alt="Dajin Lee's Photo">
 
@@ -83,28 +136,45 @@
 		<div class="research">
 			<b>Audio-Tactile Perception & Rendering</b>
 			<ul>
-				<li>Spatial Audio-Tactile Alignment (TVCG'25)</li>
+				<li>Spatial Audio-Tactile Alignment (TVCG'25)
+					<a href="https://ieeexplore.ieee.org/document/10916976" target="_blank">🔗</a>
+				</li>
 			</ul>
 
 			<b>Haptic Perception & Rendering</b>
 			<ul>
-				<li>Magnitude Estimation Across Upper Body (TOH'24a)</li>
-				<li>Heart Activity Modulation (UIST'24)</li>
-				<li>Body Penetrating Phantom Sensation on Feet (WHC'21)</li>
+				<li>Magnitude Estimation Across Upper Body (TOH'24a)
+					<a href="https://ieeexplore.ieee.org/document/10399827" target="_blank">🔗</a>
+				</li>
+				<li>Heart Activity Modulation (UIST'24)
+					<a href="https://dl.acm.org/doi/10.1145/3654777.3676435" target="_blank">🔗</a>
+				</li>
+				<li>Body Penetrating Phantom Sensation on Feet (WHC'21)
+					<a href="https://ieeexplore.ieee.org/document/9517144" target="_blank">🔗</a>
+				</li>
 			</ul>
 
 			<b>Human-Computer Interaction</b>
 			<ul>
-				<li>Embodied and Tangible Learning for Children (IJHCS'25)</li>
-				<li>Haptic Exhibit for Learning Physics (TOH'24b)</li>
-				<li>Authoring Tool for Vibrotactile Warning (Eurohaptics'24)</li>
+				<li>Embodied and Tangible Learning for Children (IJHCS'25)
+					<a href="https://www.sciencedirect.com/science/article/abs/pii/S1071581925000278" target="_blank">🔗</a>
+				</li>
+				<li>Haptic Exhibit for Learning Physics (TOH'24b)
+					<a href="https://ieeexplore.ieee.org/document/10443554" target="_blank">🔗</a>
+				</li>
+				<li>Authoring Tool for Vibrotactile Warning (Eurohaptics'24)
+					<a href="https://link.springer.com/chapter/10.1007/978-3-031-70061-3_29" target="_blank">🔗</a>
+				</li>
 			</ul>
 		</div>
 
-		<p>Please see my <a href="CV Dajin Lee.pdf" target="_blank" rel="noopener noreferrer">CV</a> for further details.</p>
+		<!-- Download CV 버튼 -->
+		<a href="CV Dajin Lee.pdf" target="_blank" class="button">📥 Download CV</a>
 
-		<p><strong>E-mail:</strong> dj1122@postech.ac.kr</p>
-		<p><strong>Laboratory:</strong> <a href="https://interaction.postech.ac.kr" target="_blank">Interaction Lab</a></p>
+		<div class="contact">
+			<p><strong>E-mail:</strong> dj1122@postech.ac.kr</p>
+			<p><strong>Laboratory:</strong> <a href="https://interaction.postech.ac.kr" target="_blank">Interaction Lab</a></p>
+		</div>
 	</div>
 
 </body>
