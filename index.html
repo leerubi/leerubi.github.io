@@ -5,130 +5,67 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Dajin Lee</title>
-	
-	<!-- Google Fonts 추가 -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-
 	<style>
-		/* 전체 페이지 스타일 */
+		/* 전체 배경 스타일 */
 		body {
-			font-family: 'Inter', sans-serif;
-			background-color: #f8f9fa;
+			background-color: #f4f4f4;
 			color: #333;
+			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
-			text-align: center;
 		}
-		
+
+		/* 본문 컨테이너 */
 		.container {
 			background: white;
-			padding: 30px;
+			padding: 20px;
 			margin: 40px auto;
-			border-radius: 12px;
-			box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
-			max-width: 750px;
-		}
-
-		h1 {
-			color: #222;
-			margin-bottom: 15px;
-			font-weight: 700;
-			font-family: 'Merriweather', serif;
-		}
-
-		img {
 			border-radius: 10px;
+			box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+			max-width: 700px;
+		}
+
+		/* 제목 스타일 */
+		h1 {
+			text-align: center;
+		}
+
+		/* 이미지 스타일 */
+		img {
+			display: block;
+			margin: 0 auto;
 			width: 100%;
-			max-width: 280px;
-			height: auto;
-			box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
-			margin-bottom: 20px;
+			max-width: 400px;
+			border-radius: 8px;
 		}
 
+		/* 연구 주제 리스트 */
 		.research {
-			text-align: left;
-			margin-top: 30px;
+			margin-top: 20px;
 		}
 
-		.research h3 {
-			color: #0056b3;
-			border-bottom: 2px solid #ddd;
-			padding-bottom: 5px;
-			font-family: 'Merriweather', serif;
+		.research b {
+			display: block;
+			margin-top: 15px;
+			font-size: 18px;
 		}
 
 		.research ul {
-			list-style-type: none;
-			padding: 0;
+			padding-left: 20px;
 		}
 
 		.research li {
-			padding: 10px;
-			font-size: 16px;
-			border-left: 3px solid #0056b3;
-			margin-bottom: 8px;
-			padding-left: 15px;
+			margin-bottom: 5px;
 		}
 
-		/* 논문 링크 스타일 */
-		.research a {
-			color: #0056b3;
-			text-decoration: none;
-			font-weight: 600;
-			transition: color 0.3s ease;
-		}
-
-		.research a:hover {
-			text-decoration: underline;
-			color: #003b80;
-		}
-
-		/* 다운로드 버튼 */
-		.button {
-			display: inline-block;
-			padding: 12px 20px;
-			margin-top: 15px;
-			background-color: #0056b3;
-			color: white;
-			border-radius: 6px;
-			text-decoration: none;
-			font-weight: 600;
-			transition: background 0.3s ease;
-		}
-
-		.button:hover {
-			background-color: #003b80;
-		}
-
-		/* 연락처 정보 */
-		.contact {
-			margin-top: 25px;
-			font-size: 15px;
-		}
-
-		.contact a {
-			color: #0056b3;
-			text-decoration: none;
-			font-weight: 600;
-		}
-
-		.contact a:hover {
-			text-decoration: underline;
-			color: #003b80;
-		}
-
+		/* 반응형 디자인 */
 		@media (max-width: 600px) {
 			.container {
 				margin: 20px;
-				padding: 20px;
+				padding: 15px;
 			}
 			h1 {
-				font-size: 24px;
-			}
-			.research li {
-				font-size: 14px;
+				font-size: 22px;
 			}
 		}
 	</style>
@@ -144,32 +81,30 @@
 		<p>My research focuses on haptics and Human-Computer Interaction (HCI).</p>
 
 		<div class="research">
-			<h3>Audio-Tactile Perception & Rendering</h3>
+			<b>Audio-Tactile Perception & Rendering</b>
 			<ul>
-				<li><a href="https://ieeexplore.ieee.org/document/10916976" target="_blank">Spatial Audio-Tactile Alignment (TVCG'25)</a></li>
+				<li>Spatial Audio-Tactile Alignment (TVCG'25)</li>
 			</ul>
 
-			<h3>Haptic Perception & Rendering</h3>
+			<b>Haptic Perception & Rendering</b>
 			<ul>
-				<li><a href="https://ieeexplore.ieee.org/document/10399827" target="_blank">Effect of Contact Force Across Upper Body (TOH'24a)</a></li>
-				<li><a href="https://dl.acm.org/doi/10.1145/3654777.3676435" target="_blank">Heart Activity Modulation (UIST'24)</a></li>
-				<li><a href="https://ieeexplore.ieee.org/document/9517144" target="_blank">Body Penetrating Phantom Sensation on Feet (WHC'21)</a></li>
+				<li>Magnitude Estimation Across Upper Body (TOH'24a)</li>
+				<li>Heart Activity Modulation (UIST'24)</li>
+				<li>Body Penetrating Phantom Sensation on Feet (WHC'21)</li>
 			</ul>
 
-			<h3>Human-Computer Interaction</h3>
+			<b>Human-Computer Interaction</b>
 			<ul>
-				<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1071581925000278" target="_blank">Embodied and Tangible Learning for Children (IJHCS'25)</a></li>
-				<li><a href="https://ieeexplore.ieee.org/document/10443554" target="_blank">Haptic Exhibit for Learning Physics (TOH'24b)</a></li>
-				<li><a href="https://link.springer.com/chapter/10.1007/978-3-031-70061-3_29" target="_blank">Authoring Tool for Vibrotactile Warning (Eurohaptics'24)</a></li>
+				<li>Embodied and Tangible Learning for Children (IJHCS'25)</li>
+				<li>Haptic Exhibit for Learning Physics (TOH'24b)</li>
+				<li>Authoring Tool for Vibrotactile Warning (Eurohaptics'24)</li>
 			</ul>
 		</div>
 
-		<a href="CV Dajin Lee.pdf" target="_blank" class="button">📥 Download CV</a>
+		<p>Please see my <a href="CV Dajin Lee.pdf" target="_blank" rel="noopener noreferrer">CV</a> for further details.</p>
 
-		<div class="contact">
-			<p>📧 E-mail: dj1122@postech.ac.kr</p>
-			<p>🔬 Laboratory: <a href="https://interaction.postech.ac.kr" target="_blank">Interaction Lab</a></p>
-		</div>
+		<p><strong>E-mail:</strong> dj1122@postech.ac.kr</p>
+		<p><strong>Laboratory:</strong> <a href="https://interaction.postech.ac.kr" target="_blank">Interaction Lab</a></p>
 	</div>
 
 </body>
