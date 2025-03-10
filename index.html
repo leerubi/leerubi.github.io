@@ -73,40 +73,43 @@
 			text-decoration: underline;
 		}
 
-		/* Download CV 버튼 */
+		/* Download CV 버튼 (왼쪽 정렬) */
 		.button {
-			display: block;
-			width: fit-content;
-			margin: 20px auto;
+			display: inline-block;
 			padding: 10px 20px;
-			background-color: #0056b3;
+			margin-top: 20px;
+			background-color: rgb(200, 1, 80);
 			color: white;
 			border-radius: 5px;
 			text-decoration: none;
 			font-weight: bold;
-			text-align: center;
 			transition: background 0.3s ease;
 		}
 
 		.button:hover {
-			background-color: #003b80;
+			background-color: rgb(150, 0, 60);
 		}
 
-		/* 연락처 정보 */
+		/* 연락처 정보 (왼쪽 정렬) */
 		.contact {
 			margin-top: 20px;
 			font-size: 14px;
-			text-align: center;
+			text-align: left;
 		}
 
 		.contact a {
-			color: #0056b3;
+			color: rgb(22, 161, 224);
 			text-decoration: none;
 			font-weight: 600;
 		}
 
 		.contact a:hover {
 			text-decoration: underline;
+		}
+
+		/* 왼쪽 정렬을 위한 공통 스타일 */
+		.left-align {
+			text-align: left;
 		}
 
 		@media (max-width: 600px) {
@@ -126,7 +129,7 @@
 <body>
 
 	<div class="container">
-		<h1>Dajin Lee, Ph.D. Student</h1>
+		<h1>Dajin Lee, Ph.D. Candidate</h1>
 
 		<img src="dajin_lee.jpg" alt="Dajin Lee's Photo">
 
@@ -168,9 +171,12 @@
 			</ul>
 		</div>
 
-		<!-- Download CV 버튼 -->
-		<a href="CV Dajin Lee.pdf" target="_blank" class="button">📥 Download CV</a>
+		<!-- Download CV 버튼 (왼쪽 정렬) -->
+		<div class="left-align">
+			<a href="CV Dajin Lee.pdf" target="_blank" class="button">📥 Download CV</a>
+		</div>
 
+		<!-- E-mail, Laboratory 왼쪽 정렬 -->
 		<div class="contact">
 			<p><strong>E-mail:</strong> dj1122@postech.ac.kr</p>
 			<p><strong>Laboratory:</strong> <a href="https://interaction.postech.ac.kr" target="_blank">Interaction Lab</a></p>
