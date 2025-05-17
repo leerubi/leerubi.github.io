@@ -1,2 +1,1 @@
-# leerubi.github.io
-welcome to Dajin's research world~
+I am a Ph.D. student specializing in haptics and HCI. My research focuses on multisensory integration of sound and touch, full-body haptics, and human-centered design and applications. I am always eager to collaborate on impactful research projects. Outside of research, I enjoy expanding my world through new experiences—exploring new places, trying different foods, reading books, and meeting people.
