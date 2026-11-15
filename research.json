@@ -19,7 +19,7 @@
   "projects": [
     {
       "id": "sto",
-      "title": "Keeping multiple tactile targets distinct",
+      "title": "Spatial Tactile Optimizer (STO)",
       "fullTitle": "Spatial Tactile Optimizer: Optimizing Perceptual Separability for Multi-Target Vibrotactile Cues on the Torso",
       "year": 2027,
       "venue": "ACM CHI 2027",
@@ -42,11 +42,12 @@
       "video": "https://drive.google.com/file/d/1DqhqvKHZX6WmanRv_5hQo100AlQ6vPOG/view?usp=sharing",
       "drive": "1DqhqvKHZX6WmanRv_5hQo100AlQ6vPOG",
       "videoLabel": "Watch demo",
-      "note": "Manuscript under review at CHI 2027. An earlier CHI 2026 extended abstract is listed separately."
+      "note": "Manuscript under review at CHI 2027. An earlier CHI 2026 extended abstract is listed separately.",
+      "focus": "perceptual separation"
     },
     {
       "id": "head-cues",
-      "title": "Giving sound and touch complementary roles",
+      "title": "Sound and touch on the head",
       "fullTitle": "Perceptual Effects of Co-Located Vibrotactile and Auditory Cues on the Head",
       "year": 2027,
       "venue": "Virtual Reality (Springer)",
@@ -72,11 +73,12 @@
       "note": "Manuscript under review at Virtual Reality (Springer).",
       "extraImage": "head-hardware-web.jpg",
       "extraAlt": "Side and top views of the head-mounted display with actuator positions and virtual stimulation locations.",
-      "caption": "The head-mounted prototype and spatial stimulation locations. Figure from the manuscript under review."
+      "caption": "The head-mounted prototype and spatial stimulation locations. Figure from the manuscript under review.",
+      "focus": "spatial and semantic tasks"
     },
     {
       "id": "music-previews",
-      "title": "Opening up music exploration",
+      "title": "Multimodal music previews",
       "fullTitle": "Saving More, Choosing Better? Multimodal Music Previews with Text and Vibration",
       "year": 2027,
       "venue": "ACM CHI 2027",
@@ -99,11 +101,12 @@
       "video": "https://drive.google.com/file/d/1b9JEtqHohxgP-Qfw-FwzSe26niWdLTBS/view?usp=sharing",
       "drive": "1b9JEtqHohxgP-Qfw-FwzSe26niWdLTBS",
       "videoLabel": "Watch demo",
-      "note": "Manuscript under review at CHI 2027."
+      "note": "Manuscript under review at CHI 2027.",
+      "focus": "decision accuracy"
     },
     {
       "id": "spatial-alignment",
-      "title": "Aligning sound and touch",
+      "title": "Spatial audio–tactile alignment",
       "fullTitle": "Perceptual Alignment of Spatial Auditory and Tactile Stimuli for Effective Directional Cueing",
       "year": 2025,
       "venue": "IEEE TVCG",
@@ -129,11 +132,12 @@
       "videoLabel": "Watch presentation",
       "extraImage": "alignment-overview-web.jpg",
       "extraAlt": "Overview of measuring directional discrimination and using it to inform tactile actuator placement.",
-      "caption": "From perceptual measurements to actuator placement and directional cueing. Figure from the published paper."
+      "caption": "From perceptual measurements to actuator placement and directional cueing. Figure from the published paper.",
+      "focus": "perceptual tolerance"
     },
     {
       "id": "phantom-feet",
-      "title": "Feeling a virtual object underfoot",
+      "title": "Body-penetrating phantom sensations",
       "fullTitle": "Vibrotactile Metaphor of Physical Interaction Using Body-Penetrating Phantom Sensations: Stepping on a Virtual Object",
       "year": 2021,
       "venue": "IEEE WHC",
@@ -159,11 +163,12 @@
       "videoLabel": "Watch presentation",
       "extraImage": "phantom-experiments-web.jpg",
       "extraAlt": "Passive seated perception and active stepping experiments with a haptic shoe and visual feedback.",
-      "caption": "Passive and active experiments. Original author-provided figure from the WHC 2021 paper."
+      "caption": "Passive and active experiments. Original author-provided figure from the WHC 2021 paper.",
+      "focus": "body-penetrating phantom sensations"
     },
     {
       "id": "haptic-exhibits",
-      "title": "Learning physics through force feedback",
+      "title": "Physical and haptic museum exhibits",
       "fullTitle": "A Comparative Study of Physical and Haptic Exhibits in an Informal Learning Environment",
       "year": 2024,
       "venue": "IEEE Transactions on Haptics",
@@ -190,7 +195,8 @@
       "videoLabel": "Watch demo",
       "extraImage": "haptic-device-web.jpg",
       "extraAlt": "Mechanical layout of the cable-driven force-feedback device and large display.",
-      "caption": "The cable-driven haptic exhibit. Figure from the published paper."
+      "caption": "The cable-driven haptic exhibit. Figure from the published paper.",
+      "focus": "force-feedback exhibit"
     },
     {
       "id": "haptcha",
@@ -217,11 +223,12 @@
       "paper": "https://doi.org/10.1145/3830398.3830484",
       "video": "https://drive.google.com/file/d/1_LcEkiQXHFQL2nOzfnB51g3Dxjqjq_2M/view?usp=sharing",
       "drive": "1_LcEkiQXHFQL2nOzfnB51g3Dxjqjq_2M",
-      "videoLabel": "Watch demo"
+      "videoLabel": "Watch demo",
+      "focus": "spatial search and rhythm reproduction"
     },
     {
       "id": "contact-force",
-      "title": "When contact changes intensity",
+      "title": "Contact force and perceived intensity",
       "fullTitle": "Effects of Contact Force on Vibrotactile Perceived Intensity Across the Upper Body",
       "year": 2024,
       "venue": "IEEE Transactions on Haptics",
@@ -241,11 +248,12 @@
         "Wearable haptics"
       ],
       "paper": "https://doi.org/10.1109/TOH.2024.3353761",
-      "note": "IEEE Haptics Symposium 2024 Best Paper Award Finalist"
+      "note": "IEEE Haptics Symposium 2024 Best Paper Award Finalist",
+      "focus": "perceived intensity"
     },
     {
       "id": "sound-phantom",
-      "title": "Giving a tactile illusion meaning through sound",
+      "title": "Sound-enhanced phantom sensations",
       "fullTitle": "Enhancing Body-Penetrating Phantom Sensations Through Multisensory Integration of Sound and Vibration",
       "year": 2025,
       "venue": "IEEE WHC",
@@ -267,11 +275,12 @@
       "paper": "https://doi.org/10.1109/WHC64065.2025.11123325",
       "video": "https://youtu.be/xrp1f_M-ghg",
       "youtube": "xrp1f_M-ghg",
-      "videoLabel": "Watch demo"
+      "videoLabel": "Watch demo",
+      "focus": "body-penetrating phantom sensations"
     },
     {
       "id": "museum-companion",
-      "title": "Bringing a museum exhibit back into the story",
+      "title": "Embodied and tangible museum interactions",
       "fullTitle": "Augmenting Outdated Museum Exhibits with Embodied and Tangible Interactions for Prolonged Use and Learning Enhancement",
       "year": 2025,
       "venue": "International Journal of Human-Computer Studies",
@@ -294,11 +303,12 @@
       "paper": "https://doi.org/10.1016/j.ijhcs.2025.103470",
       "video": "https://youtu.be/ZR9QHsjLY6w",
       "youtube": "ZR9QHsjLY6w",
-      "videoLabel": "Watch demo"
+      "videoLabel": "Watch demo",
+      "focus": "hands-on exploration"
     },
     {
       "id": "heartbeat",
-      "title": "Feeling the rhythm of the body",
+      "title": "Haptic heartbeat feedback",
       "fullTitle": "Modulating Heart Activity and Task Performance Using Haptic Heartbeat Feedback: A Study Across Four Body Placements",
       "year": 2024,
       "venue": "ACM UIST",
@@ -320,11 +330,12 @@
       "paper": "https://doi.org/10.1145/3654777.3676435",
       "video": "https://www.youtube.com/watch?v=SGXPHzoKWsY",
       "youtube": "SGXPHzoKWsY",
-      "videoLabel": "Watch presentation"
+      "videoLabel": "Watch presentation",
+      "focus": "physiological responses"
     },
     {
       "id": "participatory-warnings",
-      "title": "Designing tactile warnings with drivers",
+      "title": "Participatory design of tactile warnings",
       "fullTitle": "Participatory Design for In-Vehicle Vibrotactile Warnings on the Driver’s Seat",
       "year": 2024,
       "venue": "EuroHaptics",
@@ -347,11 +358,12 @@
       "video": "https://youtu.be/FpqS53RBq_I",
       "youtube": "FpqS53RBq_I",
       "videoLabel": "Watch demo",
-      "talk": "https://webtv.univ-lille.fr/video/12914/session-5-vibrotactile-and-electrotactile-feedback"
+      "talk": "https://webtv.univ-lille.fr/video/12914/session-5-vibrotactile-and-electrotactile-feedback",
+      "focus": "seat-based haptic platform"
     },
     {
       "id": "social-touch",
-      "title": "Understanding touch in context",
+      "title": "Touch with Meaning",
       "fullTitle": "Touch with Meaning: A Contextual Analysis of Social Touch",
       "year": 2026,
       "venue": "ACM CHI",
@@ -373,7 +385,8 @@
       "paper": "https://doi.org/10.1145/3772318.3791605",
       "video": "https://www.youtube.com/watch?v=tsQr4Iz0muo",
       "youtube": "tsQr4Iz0muo",
-      "videoLabel": "Watch video"
+      "videoLabel": "Watch video",
+      "focus": "physical contact"
     }
   ],
   "additionalPublications": [

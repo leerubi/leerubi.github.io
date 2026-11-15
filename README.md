@@ -4,7 +4,7 @@ Static academic portfolio for https://leerubi.github.io/.
 
 ## Structure
 
-- `index.html`: research introduction, category filters, and visual project gallery.
+- `index.html`: personal research introduction, category filters, and an illustrated project list.
 - `publications.html`: manuscripts under review, full papers by year, and a separate published extended-abstract section.
 - `cv.html`: CV highlights and the existing public CV.
 - `projects/`: individual research pages with figures, systems, findings, and on-demand video embeds.
@@ -37,4 +37,4 @@ The public CV is `CV_Dajin_Lee_261015_public.pdf`. The former homepage linked to
 
 ## Typography and color
 
-All site typography uses Open Sans. The lab brand blue is `#0085ca`, verified from the Interaction Laboratory stylesheet. Small text and button backgrounds use the darker `#00699f` for contrast.
+All site typography uses Open Sans: regular for body copy, semibold for selected concepts, and bold for names and research titles. The palette pairs blue (`#246bb0`) with pink (`#d8759b`); small pink text uses `#ac426c` for contrast. The original lab blue remains a brand token. Research is presented as compact illustrated rows, with actual project names, rather than promotional headings or boxed tiles.
