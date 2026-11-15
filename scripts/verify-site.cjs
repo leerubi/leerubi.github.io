@@ -12,7 +12,7 @@ for (const file of files) {
   assert.equal((html.match(/<h1\b/g)||[]).length,1,`${file}: one h1`);
   assert(html.includes('aria-label="Main navigation"'),`${file}: navigation`);
   assert(html.includes('id="main"'),`${file}: main landmark`);
-  assert(!/Confidential|CHI 2027|PRISM|Multimodal Music|1b9JEtq|1DqhqvK|1FgTi2i/.test(html),`${file}: unpublished content`);
+  assert(!/Confidential|href="undefined"|doi.org\/XXXX/.test(html),`${file}: no private filenames or placeholder links`);
   for (const match of html.matchAll(/\b(?:href|src|data)="([^"#]+)(?:#[^"]*)?"/g)) {
     const url=match[1].replace(/&amp;/g,'&');
     if (/^(?:https?:|mailto:|data:)/.test(url))continue;
@@ -27,10 +27,20 @@ for (const file of files) {
 const pub=fs.readFileSync(path.join(root,'publications.html'),'utf8');
 assert(pub.includes('ACM CHI Extended Abstracts'));
 assert(pub.includes('Extended abstract'));
-assert(!data.projects.some(project=>project.id.includes('sto')));
+assert(pub.includes('id="under-review"'));
+assert(!pub.includes('id="year-2027"'),'review submissions are not published papers');
+for(const project of data.projects.filter(project=>project.status)){
+  assert.equal(project.status,'Under review');
+  assert(!project.paper,'no public manuscript URL has been supplied');
+  const page=fs.readFileSync(path.join(root,'projects',project.id+'.html'),'utf8');
+  assert(page.includes('Under review')&&page.includes('Manuscript'),'clear review status');
+}
+assert.equal(data.projects.filter(project=>project.status).length,3);
 const css=fs.readFileSync(path.join(root,'assets/style.css'),'utf8');
 assert(css.includes('*[hidden]{display:none!important}'),'filtered lead project stays hidden');
 assert(css.includes('@media(max-width:560px)'),'mobile layout');
+assert(css.includes("--sans:'Open Sans'")&&!/DM Sans|Libre Caslon|Georgia/.test(css),'one typeface');
+assert(css.includes('--brand:#0085ca'),'Interaction Laboratory blue');
 const buttons=['all',...data.categories.map(category=>category.id)].map(id=>({dataset:{filter:id},textContent:id,setAttribute(key,value){this[key]=value;},addEventListener(event,callback){this.click=callback;}}));
 const cards=data.projects.map(project=>({dataset:{category:project.category},hidden:false}));
 const count={textContent:''};
